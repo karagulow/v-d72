@@ -30,6 +30,8 @@
 
 .accordion__icon img {
 	transition: transform 0.3s ease-in-out;
+	width: 11px;
+	height: 11px;
 }
 
 .accordion__item.active .accordion__icon img {
