@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ваш дом | Исетское | Товары для строительства и ремонта</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/fonts.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<p class="top-info top-info--mobile">
+				с. Исетское, Исетский район, Тюменская область, 50 лет ВЛКСМ, 80
+			</p>
+		</div>
+
+		<div class="top-bar">
+			<div class="container">
+				<div class="top-bar__inner">
+					<div class="top-bar__left">
+						<p class="top-info top-info--desktop">
+							с. Исетское, Исетский район, Тюменская область, 50 лет ВЛКСМ, 80
+						</p>
+
+						<div class="top-contacts">
+							<p class="top-contacts__time">
+								<span class="top-contacts__time-circle"></span>Ежедневно с 8:00
+								до 19:00
+							</p>
+							<a class="top-contacts__phone" href="tel:+79504846714"
+								>+7 (950) 484 67-14</a
+							>
+						</div>
+
+						<div class="top-help">
+							<span class="top-help__text">Нужна помощь с выбором?</span>
+							<a class="top-help__link" href="#">Перезвонить мне</a>
+						</div>
+					</div>
+
+					<div class="top-bar__right">
+						<a class="user-menu" href="#">
+							<div class="user-menu__icon">
+								<img src="/images/user.svg" alt="User" />
+							</div>
+							<p class="user-menu__text">Личный кабинет</p>
+						</a>
+						<a class="wishlist-btn" href="#">
+							<img src="/images/heart.svg" alt="Favorite" />
+						</a>
+						<button class="cart-btn" type="button">
+							<img src="/images/cart.svg" alt="Cart" />
+							<span class="cart-btn__count">0</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<header class="header">
+			<div class="container">
+				<div class="header__wrapper">
+					<nav class="header__nav nav-mobile">
+						<a href="/" class="header__nav-logo">
+							<img src="/images/logo-2.png" alt="Logo" />
+						</a>
+
+						<label class="header__nav-search">
+							<input type="text" placeholder="Поиск" />
+							<button type="button">
+								<img src="/images/search.svg" alt="Search" />
+							</button>
+						</label>
+
+						<button class="header__nav-burger"><span></span></button>
+					</nav>
+
+					<div class="header__center">
+						<nav class="header__nav nav-desktop">
+							<a href="/" class="header__nav-logo">
+								<img src="/images/logo-2.png" alt="Logo" />
+							</a>
+
+							<ul class="header__nav-list">
+								<li class="header__nav-item">
+									<p>Каталог товаров</p>
+									<img src="/images/select.svg" alt="Select" />
+								</li>
+								<li class="header__nav-item">
+									<a href="/">Товары со скидкой</a>
+								</li>
+								<li class="header__nav-item">
+									<a href="/">Сезонные товары</a>
+								</li>
+								<li class="header__nav-item">
+									<p>Услуги</p>
+									<img src="/images/select.svg" alt="Select" />
+								</li>
+								<li class="header__nav-item">
+									<a href="/">Контакты</a>
+								</li>
+								<li class="header__nav-item">
+									<a href="/">Доставка</a>
+								</li>
+							</ul>
+
+							<label class="header__nav-search">
+								<input type="text" placeholder="Поиск" />
+								<button type="button">
+									<img src="/images/search.svg" alt="Search" />
+								</button>
+							</label>
+						</nav>
+
+						<div>
+							<div class="header__description">
+								<div class="header__description-img">
+									<img src="/images/header-roller.svg" alt="Roller" />
+								</div>
+								<p class="header__description-text">
+									Интернет-магазин<br />стройматериалов в Исетске
+								</p>
+							</div>
+
+							<h2 class="header__title">
+								Доставим сегодня по Исетскому району,<br />
+								<span>поможем посчитать материалы «под ключ»</span>
+							</h2>
+
+							<div class="header__bg">
+								<img
+									class="header__bg-desktop"
+									src="/images/header-person-desktop.png"
+									alt="Person"
+								/>
+								<img
+									class="header__bg-mobile"
+									src="/images/header-person-mobile.png"
+									alt="Person"
+								/>
+							</div>
+
+							<p class="header__subtitle">
+								Более 15 000 товаров
+								<span
+									>для ремонта и строительства. Подбор по смете, бесплатная
+									консультация мастера.</span
+								>
+							</p>
+
+							<p class="header__text">
+								Соберем все для ремонта, пока вы занимаетесь своими делами!
+							</p>
+							<div class="header__btns">
+								<button class="header__btn" type="button">
+									Cоберите все за меня
+								</button>
+								<button class="header__btn btn-max" type="button">
+									Написать в MAX
+									<img class="btn-max__icon" src="/images/max.png" alt="MAX" />
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="header__bottom">
+						<div class="header__bottom-item">
+							<div class="header__bottom-icon">
+								<img src="images/header-ruble.png" alt="Ruble" />
+							</div>
+							<div class="header__bottom-wrapper">
+								<span class="header__bottom-title">Выгодная цена</span>
+								<span class="header__bottom-text">
+									Работаем напрямую с представителями бренда
+								</span>
+							</div>
+						</div>
+						<div class="header__bottom-item">
+							<div class="header__bottom-icon">
+								<img src="images/header-cart.png" alt="Cart" />
+							</div>
+							<div class="header__bottom-wrapper">
+								<span class="header__bottom-title">Широкий ассортимент</span>
+								<span class="header__bottom-text">
+									Товары в наличии отгружаем за 1 день
+								</span>
+							</div>
+						</div>
+						<div class="header__bottom-item">
+							<div class="header__bottom-icon">
+								<img
+									src="images/header-business-card.png"
+									alt="Business card"
+								/>
+							</div>
+							<div class="header__bottom-wrapper">
+								<span class="header__bottom-title">Оплата на сайте</span>
+								<span class="header__bottom-text"> Картой любого банка</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="categories section-box">
+			<div class="container">
+				<div class="categories__wrapper">
+					<div class="categories__item category-1">
+						<div class="categories__item-wrapper">
+							<p class="categories__item-title">Плитка</p>
+							<a class="categories__item-link" href="#">Перейти →</a>
+						</div>
+						<span class="categories__item-count">131 товар</span>
+						<img
+							class="categories__item-img"
+							src="/images/category-1.png"
+							alt="Category"
+						/>
+					</div>
+
+					<div class="categories__item category-2">
+						<div class="categories__item-wrapper">
+							<p class="categories__item-title">Электротовары</p>
+							<a class="categories__item-link" href="#">Перейти →</a>
+						</div>
+						<span class="categories__item-count">798 товаров</span>
+						<img
+							class="categories__item-img"
+							src="/images/category-2.png"
+							alt="Category"
+						/>
+					</div>
+
+					<div class="categories__item category-3">
+						<div class="categories__item-wrapper">
+							<p class="categories__item-title">Окна и двери</p>
+							<a class="categories__item-link" href="#">Перейти →</a>
+						</div>
+						<span class="categories__item-count">1062 товаров</span>
+						<img
+							class="categories__item-img"
+							src="/images/category-3.png"
+							alt="Category"
+						/>
+					</div>
+
+					<div class="categories__item category-4">
+						<div class="categories__item-wrapper">
+							<p class="categories__item-title">Напольные<br />покрытия</p>
+							<a class="categories__item-link" href="#">Перейти →</a>
+						</div>
+						<span class="categories__item-count">814 товаров</span>
+						<img
+							class="categories__item-img"
+							src="/images/category-4.png"
+							alt="Category"
+						/>
+					</div>
+
+					<div class="categories__item category-5">
+						<div class="categories__item-wrapper">
+							<p class="categories__item-title">Освещение</p>
+							<a class="categories__item-link" href="#">Перейти →</a>
+						</div>
+						<span class="categories__item-count">245 товаров</span>
+						<img
+							class="categories__item-img"
+							src="/images/category-5.png"
+							alt="Category"
+						/>
+					</div>
+
+					<div class="categories__item category-6">
+						<div class="categories__item-wrapper">
+							<p class="categories__item-title">Сантехника</p>
+							<a class="categories__item-link" href="#">Перейти →</a>
+						</div>
+						<span class="categories__item-count">896 товаров</span>
+						<img
+							class="categories__item-img"
+							src="/images/category-6.png"
+							alt="Category"
+						/>
+					</div>
+
+					<div class="categories__item category-7">
+						<div class="categories__item-wrapper">
+							<p class="categories__item-title">Водоснабжение</p>
+							<a class="categories__item-link" href="#">Перейти →</a>
+						</div>
+						<span class="categories__item-count">833 товара</span>
+						<img
+							class="categories__item-img"
+							src="/images/category-7.png"
+							alt="Category"
+						/>
+					</div>
+
+					<div class="categories__item category-8">
+						<div class="categories__item-wrapper">
+							<p class="categories__item-title">Акции</p>
+							<a class="categories__item-link" href="#">Перейти →</a>
+						</div>
+						<img
+							class="categories__item-img"
+							src="/images/category-8.png"
+							alt="Category"
+						/>
+					</div>
+
+					<div class="categories__item category-9">
+						<div class="categories__item-wrapper">
+							<p class="categories__item-title">Инструменты</p>
+							<a class="categories__item-link" href="#">Перейти →</a>
+						</div>
+						<span class="categories__item-count">3406 товаров</span>
+						<img
+							class="categories__item-img"
+							src="/images/category-9.png"
+							alt="Category"
+						/>
+					</div>
+
+					<div class="categories__item category-10">
+						<div class="categories__item-wrapper">
+							<p class="categories__item-title">Краски</p>
+							<a class="categories__item-link" href="#">Перейти →</a>
+						</div>
+						<span class="categories__item-count">938 товаров</span>
+						<img
+							class="categories__item-img"
+							src="/images/category-10.png"
+							alt="Category"
+						/>
+					</div>
+
+					<div class="categories__item category-11">
+						<div class="categories__item-wrapper">
+							<p class="categories__item-title">Скобяные<br />изделия</p>
+							<a class="categories__item-link" href="#">Перейти →</a>
+						</div>
+						<span class="categories__item-count">1231 товар</span>
+						<img
+							class="categories__item-img"
+							src="/images/category-11.png"
+							alt="Category"
+						/>
+					</div>
+
+					<div class="categories__item category-12">
+						<div class="categories__item-wrapper">
+							<p class="categories__item-title">Столярные<br />изделия</p>
+							<a class="categories__item-link" href="#">Перейти →</a>
+						</div>
+						<span class="categories__item-count">401 товар</span>
+						<img
+							class="categories__item-img"
+							src="/images/category-12.png"
+							alt="Category"
+						/>
+					</div>
+
+					<div class="categories__item category-13">
+						<div class="categories__item-wrapper">
+							<p class="categories__item-title">Стройматериалы</p>
+							<a class="categories__item-link" href="#">Перейти →</a>
+						</div>
+						<span class="categories__item-count">459 товар</span>
+						<img
+							class="categories__item-img"
+							src="/images/category-13.png"
+							alt="Category"
+						/>
+					</div>
+
+					<div class="categories__item category-14">
+						<div class="categories__item-wrapper">
+							<p class="categories__item-title">Бесплатная<br />доставка</p>
+							<a class="categories__item-link" style="color: #fff;" href="#">Перейти →</a>
+						</div>
+						<img
+							class="categories__item-img"
+							src="/images/category-14.png"
+							alt="Category"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="catalog section-box">
+			<div class="container">
+				<h3 class="section__title">Время покупать <span style="color: #FAC50B;">с&nbsp;выгодой</span></h3>
+
+				<ul class="catalog__list">
+					<li class="catalog__item">
+						<a class="catalog__item-img" href="#">
+							<img src="/images/catalog-1.png" alt="Product">
+						</a>
+						<a class="catalog__item-title" href="#">
+							<p>Бита 6-тигран. P01C0037 P.I.T. (1шт)</p>
+						</a>
+						<div class="catalog__item-price">
+							<p class="catalog__item-price--new">20 ₽</p>
+							<p class="catalog__item-price--old">40 ₽</p>
+							<p class="catalog__item-discount">-50%</p>
+						</div>
+						<div class="catalog__item-controls">
+							<div class="catalog__item-quantity">
+								<button class="catalog__item-minus" type="button">-</button>
+								<span class="catalog__item-count">0</span>
+								<button class="catalog__item-plus" type="button">+</button>
+							</div>
+							<button class="catalog__item-btn" type="button">
+								<img src="/images/cart.svg" alt="Cart">
+								<span>В корзину</span>
+							</button>
+						</div>
+					</li>
+
+						<li class="catalog__item">
+						<a class="catalog__item-img" href="#">
+							<img src="/images/catalog-2.png" alt="Product">
+						</a>
+						<a class="catalog__item-title" href="#">
+							<p>Бита 6-тигран. P01C0037 P.I.T. (1шт)</p>
+						</a>
+						<div class="catalog__item-price">
+							<p class="catalog__item-price--new">20 ₽</p>
+							<p class="catalog__item-price--old">40 ₽</p>
+							<p class="catalog__item-discount">-50%</p>
+						</div>
+						<div class="catalog__item-controls">
+							<div class="catalog__item-quantity">
+								<button class="catalog__item-minus" type="button">-</button>
+								<span class="catalog__item-count">0</span>
+								<button class="catalog__item-plus" type="button">+</button>
+							</div>
+							<button class="catalog__item-btn" type="button">
+								<img src="/images/cart.svg" alt="Cart">
+								<span>В корзину</span>
+							</button>
+						</div>
+					</li>
+
+						<li class="catalog__item">
+						<a class="catalog__item-img" href="#">
+							<img src="/images/catalog-3.png" alt="Product">
+						</a>
+						<a class="catalog__item-title" href="#">
+							<p>Бита 6-тигран. P01C0037 P.I.T. (1шт)</p>
+						</a>
+						<div class="catalog__item-price">
+							<p class="catalog__item-price--new">20 ₽</p>
+							<p class="catalog__item-price--old">40 ₽</p>
+							<p class="catalog__item-discount">-50%</p>
+						</div>
+						<div class="catalog__item-controls">
+							<div class="catalog__item-quantity">
+								<button class="catalog__item-minus" type="button">-</button>
+								<span class="catalog__item-count">0</span>
+								<button class="catalog__item-plus" type="button">+</button>
+							</div>
+							<button class="catalog__item-btn" type="button">
+								<img src="/images/cart.svg" alt="Cart">
+								<span>В корзину</span>
+							</button>
+						</div>
+					</li>
+
+						<li class="catalog__item">
+						<a class="catalog__item-img" href="#">
+							<img src="/images/catalog-4.png" alt="Product">
+						</a>
+						<a class="catalog__item-title" href="#">
+							<p>Бита 6-тигран. P01C0037 P.I.T. (1шт)</p>
+						</a>
+						<div class="catalog__item-price">
+							<p class="catalog__item-price--new">20 ₽</p>
+							<p class="catalog__item-price--old">40 ₽</p>
+							<p class="catalog__item-discount">-50%</p>
+						</div>
+						<div class="catalog__item-controls">
+							<div class="catalog__item-quantity">
+								<button class="catalog__item-minus" type="button">-</button>
+								<span class="catalog__item-count">0</span>
+								<button class="catalog__item-plus" type="button">+</button>
+							</div>
+							<button class="catalog__item-btn" type="button">
+								<img src="/images/cart.svg" alt="Cart">
+								<span>В корзину</span>
+							</button>
+						</div>
+					</li>
+
+						<li class="catalog__item">
+						<a class="catalog__item-img" href="#">
+							<img src="/images/catalog-4.png" alt="Product">
+						</a>
+						<a class="catalog__item-title" href="#">
+							<p>Бита 6-тигран. P01C0037 P.I.T. (1шт)</p>
+						</a>
+						<div class="catalog__item-price">
+							<p class="catalog__item-price--new">20 ₽</p>
+							<p class="catalog__item-price--old">40 ₽</p>
+							<p class="catalog__item-discount">-50%</p>
+						</div>
+						<div class="catalog__item-controls">
+							<div class="catalog__item-quantity">
+								<button class="catalog__item-minus" type="button">-</button>
+								<span class="catalog__item-count">0</span>
+								<button class="catalog__item-plus" type="button">+</button>
+							</div>
+							<button class="catalog__item-btn" type="button">
+								<img src="/images/cart.svg" alt="Cart">
+								<span>В корзину</span>
+							</button>
+						</div>
+					</li>
+				</ul>
+		</section>
+
+		<section class="services section-box">
+			<div class="container">
+				<h3 class="section__title">Услуги</h3>
+
+				<div class="services__wrapper">
+					<div class="services__wrapper-item">
+						<p class="services__wrapper-title">Услуги<br />колеровки</p>
+						<button class="services__wrapper-btn" type="button">
+							Перейти →
+						</button>
+						<img
+							class="services__wrapper-img"
+							src="/images/services-1.png"
+							alt="Person"
+						/>
+					</div>
+					<div class="services__wrapper-item">
+						<p class="services__wrapper-title">Отделочные<br />работы</p>
+						<button class="services__wrapper-btn" type="button">
+							Перейти →
+						</button>
+						<img
+							class="services__wrapper-img"
+							src="/images/services-2.png"
+							alt="Person"
+						/>
+					</div>
+					<div class="services__wrapper-item">
+						<p class="services__wrapper-title">Установка<br />дверей</p>
+						<button class="services__wrapper-btn" type="button">
+							Перейти →
+						</button>
+						<img
+							class="services__wrapper-img"
+							src="/images/services-3.png"
+							alt="Person"
+						/>
+					</div>
+					<div class="services__wrapper-item">
+						<p class="services__wrapper-title">
+							Установка газовых<br />котлов и ТО
+						</p>
+						<button class="services__wrapper-btn" type="button">
+							Перейти →
+						</button>
+						<img
+							class="services__wrapper-img"
+							src="/images/services-4.png"
+							alt="Person"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="about-us section-box">
+			<div class="container">
+				<h3 class="section__title">О нас в цифрах</h3>
+
+				<div class="about-us__wrapper">
+					<div class="about-us__wrapper-item">
+						<div class="about-us__wrapper-icon">
+							<img src="images/about-us-1.png" alt="about-us" />
+						</div>
+						<div class="about-us__wrapper-bottom">
+							<span class="about-us__wrapper-title">10 лет</span>
+							<span class="about-us__wrapper-text">Стараемся для вас</span>
+						</div>
+					</div>
+					<div class="about-us__wrapper-item">
+						<div class="about-us__wrapper-icon">
+							<img src="images/about-us-2.png" alt="about-us" />
+						</div>
+						<div class="about-us__wrapper-bottom">
+							<span class="about-us__wrapper-title">10 000+</span>
+							<span class="about-us__wrapper-text"
+								>Огромное количество товаров</span
+							>
+						</div>
+					</div>
+					<div class="about-us__wrapper-item">
+						<div class="about-us__wrapper-icon">
+							<img src="images/about-us-3.png" alt="about-us" />
+						</div>
+						<div class="about-us__wrapper-bottom">
+							<span class="about-us__wrapper-title">1 день</span>
+							<span class="about-us__wrapper-text"
+								>Доставка в день покупки</span
+							>
+						</div>
+					</div>
+					<div class="about-us__wrapper-item">
+						<div class="about-us__wrapper-icon">
+							<img src="images/about-us-4.png" alt="about-us" />
+						</div>
+						<div class="about-us__wrapper-bottom">
+							<span class="about-us__wrapper-title">1 магазин</span>
+							<span class="about-us__wrapper-text"
+								>Пока. Ждите открытие новых филиалов.</span
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="cooperation section-box">
+			<div class="container">
+				<div class="cooperation__box">
+					<h3 class="section__title">
+						Юр. лицам, строительным<br />
+						бригадам и мастерам<br />
+						по ремонту
+					</h3>
+
+					<div class="cooperation__img">
+						<img
+							class="cooperation__img-person"
+							src="/images/cooperation-person.png"
+							alt="Person"
+						/>
+					</div>
+
+					<div class="cooperation__wrapper">
+						<div class="cooperation__wrapper-item">
+							<div class="cooperation__wrapper-icon">
+								<img src="images/cooperation-1.png" alt="cooperation" />
+							</div>
+							<span class="cooperation__wrapper-text">Резерв товара</span>
+						</div>
+						<div class="cooperation__wrapper-item">
+							<div class="cooperation__wrapper-icon">
+								<img src="images/cooperation-2.png" alt="cooperation" />
+							</div>
+							<span class="cooperation__wrapper-text">Безналичный расчет</span>
+						</div>
+						<div class="cooperation__wrapper-item">
+							<div class="cooperation__wrapper-icon">
+								<img src="images/cooperation-3.png" alt="cooperation" />
+							</div>
+							<span class="cooperation__wrapper-text"
+								>Прием заказов в мессенджерах, по почте и телефону</span
+							>
+						</div>
+						<div class="cooperation__wrapper-item">
+							<div class="cooperation__wrapper-icon">
+								<img src="images/cooperation-4.png" alt="cooperation" />
+							</div>
+							<span class="cooperation__wrapper-text"
+								>Сборка за 3 часа и погрузка в авто</span
+							>
+						</div>
+						<div class="cooperation__wrapper-item">
+							<div class="cooperation__wrapper-icon">
+								<img src="images/cooperation-5.png" alt="cooperation" />
+							</div>
+							<span class="cooperation__wrapper-text"
+								>Персональный менеджер для решения любых вопросов</span
+							>
+						</div>
+						<div class="cooperation__wrapper-item">
+							<div class="cooperation__wrapper-icon">
+								<img src="images/cooperation-6.png" alt="cooperation" />
+							</div>
+							<span class="cooperation__wrapper-text"
+								>Накопительная скидка + баллы за покупку</span
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="faq section-box">
+			<div class="container">
+				<h3 class="section__title">FAQ</h3>
+
+				<div class="accordion">
+					<div class="accordion__item">
+						<button class="accordion__question" type="button">
+							Как заказать?
+							<div class="accordion__icon">
+								<span>+</span>
+							</div>
+						</button>
+						<div class="accordion__answer">
+							<div class="accordion__content">
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Vitae, error et tempora sed laudantium debitis, quos corporis
+									voluptas saepe eum voluptate dolorum modi veritatis
+									perspiciatis asperiores voluptatibus ullam? Accusantium,
+									omnis!
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="accordion__item">
+						<button class="accordion__question" type="button">
+							Как происходит доставка?
+							<div class="accordion__icon">
+								<span>+</span>
+							</div>
+						</button>
+						<div class="accordion__answer">
+							<div class="accordion__content">
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Vitae, error et tempora sed laudantium debitis, quos corporis
+									voluptas saepe eum voluptate dolorum modi veritatis
+									perspiciatis asperiores voluptatibus ullam? Accusantium,
+									omnis!
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="accordion__item">
+						<button class="accordion__question" type="button">
+							Как оплатить?
+							<div class="accordion__icon">
+								<span>+</span>
+							</div>
+						</button>
+						<div class="accordion__answer">
+							<div class="accordion__content">
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Vitae, error et tempora sed laudantium debitis, quos corporis
+									voluptas saepe eum voluptate dolorum modi veritatis
+									perspiciatis asperiores voluptatibus ullam? Accusantium,
+									omnis!
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="gallery section-box">
+			<div class="container">
+				<h3 class="section__title">Галерея</h3>
+
+				<div class="gallery__slider swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img
+								class="gallery__img"
+								src="/images/gallery-1.png"
+								alt="Photo"
+							/>
+						</div>
+
+						<div class="swiper-slide">
+							<img
+								class="gallery__img"
+								src="/images/gallery-2.png"
+								alt="Photo"
+							/>
+						</div>
+
+						<div class="swiper-slide">
+							<img
+								class="gallery__img"
+								src="/images/gallery-3.png"
+								alt="Photo"
+							/>
+						</div>
+
+						<div class="swiper-slide">
+							<img
+								class="gallery__img"
+								src="/images/gallery-4.png"
+								alt="Photo"
+							/>
+						</div>
+
+						<div class="swiper-slide">
+							<img
+								class="gallery__img"
+								src="/images/gallery-4.png"
+								alt="Photo"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__wrapper">
+					<div class="footer__col">
+						<h6 class="footer__col-title">Каталог</h6>
+						<ul class="footer__col-list">
+							<li class="footer__col-item">
+								<a href="">Все товары</a>
+							</li>
+							<li class="footer__col-item">
+								<a href="">Товары со скидкой</a>
+							</li>
+							<li class="footer__col-item">
+								<a href="">Сезонные товары</a>
+							</li>
+							<li class="footer__col-item">
+								<a href="">Услуги</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="footer__col">
+						<h6 class="footer__col-title">Покупателям</h6>
+						<ul class="footer__col-list">
+							<li class="footer__col-item">
+								<a href="">Личный кабинет</a>
+							</li>
+							<li class="footer__col-item">
+								<a href="">Корзина</a>
+							</li>
+							<li class="footer__col-item">
+								<a href="">Ваш заказ</a>
+							</li>
+							<li class="footer__col-item">
+								<a href="">Правила продажи товаров</a>
+							</li>
+							<li class="footer__col-item">
+								<a href="">Публичная оферта</a>
+							</li>
+							<li class="footer__col-item">
+								<a href="">Политика конфиденциальности</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="footer__col">
+						<h6 class="footer__col-title">Информация</h6>
+						<ul class="footer__col-list">
+							<li class="footer__col-item">
+								<a href="">Заказ товара</a>
+							</li>
+							<li class="footer__col-item">
+								<a href="">Способы оплаты</a>
+							</li>
+							<li class="footer__col-item">
+								<a href="">Самовывоз товаров</a>
+							</li>
+							<li class="footer__col-item">
+								<a href="">Доставка товаров</a>
+							</li>
+							<li class="footer__col-item">
+								<a href="">Возврат товара</a>
+							</li>
+							<li class="footer__col-item">
+								<a href="">Возврат денежных средств</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="footer__col">
+						<h6 class="footer__col-title">Контакты</h6>
+						<ul class="footer__col-list">
+							<li class="footer__col-item">
+								<a href="tel:+79504846714">+7 (950) 484 67-14</a>
+							</li>
+							<li class="footer__col-item">
+								<a href="mailto:info@v-d72.ru">info@v-d72.ru</a>
+							</li>
+							<li class="footer__col-item">
+								<a href="">Локация</a>
+							</li>
+							<li class="footer__col-item">
+								<a href="">Реквизиты</a>
+							</li>
+							<li class="footer__col-item">[ninja-popup ID=2535]</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="footer__bottom">
+					<div class="footer__copyright">
+						<a class="footer__logo" href="/">
+							<img src="/images/logo-1.png" alt="Logo" />
+						</a>
+						<p>© 2024 Ваш дом. Все права защищены.</p>
+					</div>
+					<div class="footer__cards">
+						<img class="footer__card" src="/images/sbp.png" alt="sbp" />
+						<img class="footer__card" src="/images/mir.png" alt="mir" />
+						<img
+							class="footer__card"
+							src="/images/mastercard.png"
+							alt="mastercard"
+						/>
+						<img class="footer__card" src="/images/visa.png" alt="visa" />
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

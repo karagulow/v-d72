@@ -1,0 +1,49 @@
+@import url('header.css');
+@import url('categories.css');
+@import url('catalog.css');
+@import url('services.css');
+@import url('about-us.css');
+@import url('cooperation.css');
+@import url('faq.css');
+@import url('gallery.css');
+@import url('footer.css');
+
+body {
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.3;
+	color: #272727;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.section-box {
+	padding: 60px 0;
+}
+
+.section__title {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 28px;
+	margin-bottom: 50px;
+}
+
+@media (max-width: 740px) {
+	.container {
+		padding: 0 10px;
+	}
+
+	.section-box {
+		padding: 40px 0;
+	}
+
+	.section__title {
+		font-size: 21px;
+		margin-bottom: 30px;
+	}
+}
