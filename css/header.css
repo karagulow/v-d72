@@ -301,7 +301,7 @@
 	height: 420px;
 
 	background-size: cover;
-	background-image: url('../images/header-car.png');
+	background-image: url(../images/header-car.png);
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
